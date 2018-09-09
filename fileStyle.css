@@ -1,0 +1,54 @@
+body{
+    margin: : 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+table{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid;
+    text-align: left;
+    padding: 20px;
+}
+
+
+.container-table{
+    width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #4158d0, #c850c0);
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 33px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 50px);
+}fg 
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
